@@ -1,0 +1,8 @@
+opencv-python
+numpy
+PyYAML
+tqdm
+soundfile
+resampy
+sounddevice
+pillow

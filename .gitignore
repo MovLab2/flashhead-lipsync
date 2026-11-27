@@ -1,0 +1,62 @@
+# ---- heavy / generated (never commit) -------------------------------------
+# 8 GB of model weights (downloaded by the server, see README) + vendored engine
+flashhead_models/
+flashhead_engine/
+
+# rendered output
+output/
+frames/
+
+# python
+__pycache__/
+*.pyc
+
+# media produced by the app / tests
+*.png
+!docs/*.png
+*.jpg
+*.jpeg
+*.mp4
+*.wav
+*.npy
+*.log
+*_log.txt
+run_log.txt
+
+# ---- scratch / one-off scripts from development ---------------------------
+probe3.py
+probe4.py
+probe_raw.py
+probe_stream.py
+diag.py
+diag.bat
+check_health.py
+check_health.bat
+check_crop.py
+check_server.py
+realtime_client.py
+realtime_test.py
+measure_sync.py
+run_demo.py
+run_demo2.py
+verify_video.py
+test_gui.py
+test_gui_final.py
+test_gui_simple.py
+test_tkinter.py
+test_sd.py
+test_audio_start.py
+test_clock.py
+test_detect.py
+run_app_logged.bat
+
+# a local clone of the FlashHead plugin (setup puts it here)
+flashhead/
+sapphire-flashhead/
+flashhead_root.txt
+sapphire_root.txt
+
+# only the real launchers are tracked
+*.bat
+!START Lip-Sync App.bat
+!SETUP FlashHead (once).bat
